@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configuration variables (change as you wish)
-src="${1:-/path/to/source}"
-dst="${2:-/path/to/target}"
+src="${src:-$1}"
+dst="${dst:-$2}"
 backupDepth=${backupDepth:-7}
 timeout=${timeout:-1800}
 pathBak0="${pathBak0:-data}"
